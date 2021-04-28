@@ -32,7 +32,7 @@ async def BotzHub():
             print("[INFO] starting to check uptime..")
             await user_bot.edit_message(int(chnl_id), msg_id, "**@HxBots Bots Stats.**\n\n`Performing a periodic check...`")
             c = 0
-            edit_text = "**@HxBots Bots Stats.**\n\n💗 𝐎𝐮𝐫 𝐀𝐥𝐥 𝐁𝐨𝐭𝐬 𝐋𝐢𝐬𝐭 𝐚𝐧𝐝 𝐋𝐢𝐯𝐞 𝐒𝐭𝐚𝐭𝐮𝐬 💖\n\n💡__𝘉𝘰𝘵 𝘜𝘱𝘥𝘢𝘵𝘦𝘥 𝘌𝘷𝘦𝘳𝘺 15 𝘔𝘪𝘯𝘶𝘵𝘦𝘴__\n\n"
+            edit_text = "**@HxBots Bots Stats.**\n\n💗 𝐎𝐮𝐫 𝐀𝐥𝐥 𝐁𝐨𝐭𝐬 𝐋𝐢𝐬𝐭 𝐚𝐧𝐝 𝐋𝐢𝐯𝐞 𝐒𝐭𝐚𝐭𝐮𝐬 💖\n\n💡__Bot Updated Every 1 Hour__\n\n"
             for bot in bots:
                 print(f"[INFO] checking @{bot}")
                 snt = await user_bot.send_message(bot, "/start")
